@@ -1,0 +1,41 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+}
+
+button{
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    font-size: 25px;
+}
+
+#result{
+    font-size: 50px;
+}
+
+.playing{
+transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+#score{
+font-size: 50px;
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  -ms-transform: translateY(-90%);
+  transform: translateY(-90%);
+}
+
+#game{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
